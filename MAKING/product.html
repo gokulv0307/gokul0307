@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <!-- Bootstrap JavaScript Bundle (includes Popper.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="mk.css">
+  <script src="mk.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="cursor"></div>
+  <div id="cursor-border"></div>
+
+  <div class="custom-cursor"></div>
+    <section>
+        <div class="nav">
+              <img src="https://www.freepnglogos.com/uploads/company-logo-png/file-quechua-company-logo-wikimedia-commons-18.png" alt="" width="100px;" height="60px">
+
+            <div class="nav-container">
+  
+              <a href="\mk.html">Home</a>
+              <a href="\product.html">Product</a>
+              <a href="\services.html">Services</a>
+              <a href="\contact.html">Contact</a>
+
+            </div>
+          <i class="fa fa-shopping-cart" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="font-size: 30px;    color:white; "></i>
+          </div>
+
+       
+
+        <div>
+    
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+
+    <h5 id="offcanvasRightLabel"><strong>ADD TO CART</strong></h5>
+
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+ <ul id="cartItems"></ul>
+  
+  </div>
+</div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!-- PRODUCTS -->
+
+       
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/1c84e4550bd36152.jpg?q=20" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/9a7a08792fde010f.jpg?q=20" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/cc633426b89ad841.png?q=20" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/6701030f290f9f81.jpg?q=20" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/97c710b1b8b764df.png?q=20" class="d-block w-100" alt="...">
+      </div>
+
+      
+      <div class="carousel-item">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/611e77220cd10cee.png?q=20" class="d-block w-100" alt="...">
+    </div>
+
+    
+    <div class="carousel-item">
+      <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/97c710b1b8b764df.png?q=20" class="d-block w-100" alt="...">
+  </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  
+  <style>
+      .carousel-inner {
+          max-height: 400px;
+      }
+  
+      .carousel-item img {
+          max-height: 400px;
+          object-fit: cover;
+      }
+  </style>
+
+
+  
+
+
+   
+
+
+
+    <div class="d-flex justify-content-evenly    "  >
+      <!-- CARD 1 -->
+   <div class="card over overflow-hidden jin " style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/41WIy4Od4mL._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top jin" alt="...">
+     <div>
+    <div class="card-body " style="padding:20px;">
+    
+     <div>
+      <h5> <strong>₹80000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹10,000</del></h5>
+
+      <div class="star">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-full"></i>
+        <li class="fa fa-star-half-full"></li>
+        
+       </div>
+      <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+     </div>
+    
+    </div>
+    <button class="btn btn-warning add add-to-cart" data-name="HP" data-cursor="pointer"  data-price="80000" data-img="https://m.media-amazon.com/images/I/41WIy4Od4mL._SX300_SY300_QL70_FMwebp_.jpg"><strong>ADD TO CART</strong></button>
+
+      
+     
+    </div>
+  </div>
+  
+  <!-- CARD2 -->
+  <div class="card over overflow-hidden  jin    " style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/51rEPuvNYFL._SX679_.jpg" class="card-img-top jin" alt="...">
+    <div class="card-body " style="padding:20px;">
+    
+      <div>
+        <h5> <strong>₹94,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹2,00000</del></h5>
+
+
+       <div class="star">
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-empty"></i>
+         <i class="fa fa-star-half-full"></i>
+         <li class="fa fa-star-half-full"></li>
+         
+        </div>
+        <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+
+      </div>
+     
+     </div>
+     <button href="#" class="btn btn-warning add add-to-cart" data-name="DELL" data-cursor="pointer2"  data-price="94000" data-img="https://m.media-amazon.com/images/I/51rEPuvNYFL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+ 
+  </div>
+
+  <!-- CARD3 -->
+  <div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+    <img src="https://m.media-amazon.com/images/I/61oeDO711bL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+    <div class="card-body " style="padding:20px;">
+    
+      <div>
+        <h5> <strong>₹70,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹90,000</del></h5>
+
+       <div class="star">
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-empty"></i>
+         <i class="fa fa-star-half-full"></i>
+         <li class="fa fa-star-half-full"></li>
+         
+        </div>
+       <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+      </div>
+     
+     </div>
+     <button href="#" class="btn btn-warning add add-to-cart" data-name="LENOVOE"   data-price="70000" data-img="https://m.media-amazon.com/images/I/61oeDO711bL._SX679_.jpg"> <strong>ADD TO CART</strong>  </button>
+ 
+  </div>
+
+
+
+
+  <!-- CARD4 -->
+  <div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+    <img src="https://m.media-amazon.com/images/I/61zAPJOwK8L._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+    <div class="card-body " style="padding:20px;">
+    
+      <div>
+        <h5> <strong>₹60,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,000000</del></h5>
+
+       <div class="star">
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-empty"></i>
+         <i class="fa fa-star-half-full"></i>
+         <li class="fa fa-star-half-full"></li>
+         
+        </div>
+       <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+      </div>
+     
+     </div>
+     <button href="#" class="btn btn-warning add add-to-cart" data-name="HP"   data-price="60000" data-img="https://m.media-amazon.com/images/I/61zAPJOwK8L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+ 
+  </div>
+</div>
+
+
+<!-- SECTION 222222222222-->
+
+<div class="d-flex justify-content-sm-evenly  "  >
+  <!-- CARD 1 -->
+<div class="card over overflow-hidden jin " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/711jtvyLkKL._SX569_.jpg" class="card-img-top jin" alt="...">
+ <div>
+<div class="card-body " style="padding:20px;">
+
+ <div>
+  <h5> <strong>₹1,99,900</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹2,00000</del></h5>
+
+  <div class="star">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-empty"></i>
+    <i class="fa fa-star-half-full"></i>
+    <li class="fa fa-star-half-full"></li>
+    
+   </div>
+  <p class="card-text">Apple 2023 MacBook ProApple 2023 MacBook Pro (14-inch, M3 Pro chip with 11‑core)</p>
+ </div>
+
+</div>
+<button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS ZENBOOK"   data-price="199900" data-img="https://m.media-amazon.com/images/I/711jtvyLkKL._SX569_.jpg"><strong>ADD TO CART</strong></button>
+
+  
+ 
+</div>
+</div>
+
+<!-- CARD2 -->
+<div class="card over overflow-hidden  jin    " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/71eAy6BpcDL._SX569_.jpg" class="card-img-top jin" alt="...">
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹69,990</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹9,00000</del></h5>
+
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+    <p class="card-text">Dell Inspiron 7430 2in1 Touch Laptop, 13th Gen Intel Core i5-1335U Processor</p>
+
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="DELL"   data-price="69990" data-img="https://m.media-amazon.com/images/I/71eAy6BpcDL._SX569_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+<!-- CARD3 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/71qTbS09tjL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹68,990</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹80000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text"> Victus Gaming Laptop, 12th Gen Intel Core i5-12450H, 4GB RTX 3050 GPU, 15.6-inch</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="VICTUS"   data-price="68990" data-img="https://m.media-amazon.com/images/I/71qTbS09tjL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+
+
+
+<!-- CARD4 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/71gjnjXFcTL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹70,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹9,00000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="HP"   data-price="70000" data-img="https://m.media-amazon.com/images/I/71gjnjXFcTL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+</div>
+
+<!-- 
+SECTION 333333333333333-->
+
+
+<div class="d-flex justify-content-evenly   " >
+  <!-- CARD 1 -->
+<div class="card over overflow-hidden jin " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/71jR5CcneQL._SX679_.jpg" class="card-img-top jin" alt="...">
+ <div>
+<div class="card-body " style="padding:20px;">
+
+ <div>
+  <h5> <strong>₹40,990</strong><del style="font-size: 15px; color:rgb(109, 103, 103);"> M.R.P: ₹6,0000</del></h5>
+
+  <div class="star">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-empty"></i>
+    <i class="fa fa-star-half-full"></i>
+    <li class="fa fa-star-half-full"></li>
+    
+   </div>
+  <p class="card-text">ZEBRONICS Laptop PRO Series Y NBC 1S, Intel Core 11th Gen i3 Processor (8GB RAM | 512GB)</p>
+ </div>
+
+</div>
+<button   href="#" class="btn btn-warning add add-to-cart" data-name="ZEBRONICS"   data-price="40990" data-img="https://m.media-amazon.com/images/I/71jR5CcneQL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+  
+ 
+</div>
+</div>
+
+<!-- CARD2 -->
+<div class="card over overflow-hidden  jin    " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/71jbnSEFVtL._SX679_.jpg" class="card-img-top jin" alt="...">
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹50,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹20,00,000</del></h5>
+
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+    <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="SAMSUNG"   data-price="50000" data-img="https://m.media-amazon.com/images/I/71jbnSEFVtL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+<!-- CARD3 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/61xY8U1KM5L._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹1,50,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹20,0000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="MAC"   data-price="150000" data-img="https://m.media-amazon.com/images/I/61xY8U1KM5L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+
+
+
+<!-- CARD4 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/71XFVim8xBL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹80,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,00,000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="HP"   data-price="80000" data-img="https://m.media-amazon.com/images/I/71XFVim8xBL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+</div>
+
+
+
+
+
+
+
+  <!-- CART SLIDERRRRRRRR -->
+
+
+
+
+    </div>
+
+
+  </div>   
+
+
+
+  
+<!-- SECTION 44444444444444 -->
+  
+  <div class="d-flex justify-content-evenly   "  >
+    <!-- CARD 1 -->
+ <div class="card over overflow-hidden jin " style="width: 18rem;">
+  <img src="https://m.media-amazon.com/images/I/61w3+NJvx-L._SX679_.jpg" class="card-img-top jin" alt="...">
+   <div>
+  <div class="card-body " style="padding:20px;">
+  
+   <div>
+    <h5> <strong>₹90,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40000</del></h5>
+
+    <div class="star">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-empty"></i>
+      <i class="fa fa-star-half-full"></i>
+      <li class="fa fa-star-half-full"></li>
+      
+     </div>
+    <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+   </div>
+  
+  </div>
+  <button href="#" class="btn btn-warning add add-to-cart" data-name="HP"   data-price="90000" data-img="https://m.media-amazon.com/images/I/61w3+NJvx-L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+    
+   
+  </div>
+</div>
+
+<!-- CARD2 -->
+<div class="card over overflow-hidden  jin    " style="width: 18rem;">
+  <img src="https://m.media-amazon.com/images/I/714comP-3VL._SX679_.jpg" class="card-img-top jin" alt="...">
+  <div class="card-body " style="padding:20px;">
+  
+    <div>
+      <h5> <strong>₹50,0000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹30,0000</del></h5>
+
+
+     <div class="star">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star-half-empty"></i>
+       <i class="fa fa-star-half-full"></i>
+       <li class="fa fa-star-half-full"></li>
+       
+      </div>
+      <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+
+    </div>
+   
+   </div>
+   <button href="#" class="btn btn-warning add add-to-cart" data-name="ZERBONICS"   data-price="50000" data-img="https://m.media-amazon.com/images/I/714comP-3VL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+<!-- CARD3 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+  <img src="https://m.media-amazon.com/images/I/71LYpROCRPL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+  <div class="card-body " style="padding:20px;">
+  
+    <div>
+      <h5> <strong>₹70,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹80,000</del></h5>
+
+     <div class="star">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star-half-empty"></i>
+       <i class="fa fa-star-half-full"></i>
+       <li class="fa fa-star-half-full"></li>
+       
+      </div>
+     <p class="card-text">VCTUS Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+    </div>
+   
+   </div>
+   <button href="#" class="btn btn-warning add add-to-cart" data-name="VICTUS"   data-price="20000" data-img="https://m.media-amazon.com/images/I/71LYpROCRPL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+
+
+
+<!-- CARD4 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+  <img src="https://m.media-amazon.com/images/I/61bPHGsnehL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+  <div class="card-body " style="padding:20px;">
+  
+    <div>
+      <h5> <strong>₹70,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,4000</del></h5>
+
+     <div class="star">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star-half-empty"></i>
+       <i class="fa fa-star-half-full"></i>
+       <li class="fa fa-star-half-full"></li>
+       
+      </div>
+     <p class="card-text">ASUS Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+    </div>
+   
+   </div>
+   <button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS"   data-price="20000" data-img="https://m.media-amazon.com/images/I/61bPHGsnehL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+</div>
+
+<!-- SECTION 5555555555555 -->
+
+ 
+<div class="d-flex justify-content-evenly   "  >
+  <!-- CARD 1 -->
+<div class="card over overflow-hidden jin " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/61mBXtH1v8L._SX679_.jpg" class="card-img-top jin" alt="...">
+ <div>
+<div class="card-body " style="padding:20px;">
+
+ <div>
+  <h5> <strong>₹80,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,00000</del></h5>
+
+  <div class="star">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-empty"></i>
+    <i class="fa fa-star-half-full"></i>
+    <li class="fa fa-star-half-full"></li>
+    
+   </div>
+  <p class="card-text">FREEBOOK Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+ </div>
+
+</div>
+<button href="#" class="btn btn-warning add add-to-cart" data-name="FREEBOOK"   data-price="80000" data-img="https://m.media-amazon.com/images/I/61mBXtH1v8L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+  
+ 
+</div>
+</div>
+
+<!-- CARD2 -->
+<div class="card over overflow-hidden  jin    " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/61zPiiHgx9L._SX679_.jpg" class="card-img-top jin" alt="...">
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹90,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40000</del></h5>
+
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+    <p class="card-text">CORE BOOK Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="COREBOOK X"   data-price="90000" data-img="https://m.media-amazon.com/images/I/61zPiiHgx9L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+<!-- CARD3 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/71qTbS09tjL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹5,00,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹7,00,000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">ASUS Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS"   data-price="500000" data-img="https://m.media-amazon.com/images/I/71qTbS09tjL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+
+
+
+<!-- CARD4 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/711jtvyLkKL._SX569_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹70000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40,000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">ASUS Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="ASU ZENBOOK"   data-price="70000" data-img="https://m.media-amazon.com/images/I/711jtvyLkKL._SX569_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+</div>
+
+<!-- SECTION6666666666666 -->
+
+
+
+ 
+<div class="d-flex justify-content-evenly   "  >
+  <!-- CARD 1 -->
+<div class="card over overflow-hidden jin " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/71hbhqTUnAL._SX679_.jpg" class="card-img-top jin" alt="...">
+ <div>
+<div class="card-body " style="padding:20px;">
+
+ <div>
+  <h5> <strong>₹80,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,50000</del></h5>
+
+  <div class="star">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-empty"></i>
+    <i class="fa fa-star-half-full"></i>
+    <li class="fa fa-star-half-full"></li>
+    
+   </div>
+  <p class="card-text">ASUS Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+ </div>
+
+</div>
+<button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS"   data-price="80000" data-img="https://m.media-amazon.com/images/I/71hbhqTUnAL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+  
+ 
+</div>
+</div>
+
+<!-- CARD2 -->
+<div class="card over overflow-hidden  jin    " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/71VrU+m9CDL._SX679_.jpg" class="card-img-top jin" alt="...">
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹90,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40,000</del></h5>
+
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+    <p class="card-text">ASUS Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS"   data-price="90000" data-img="https://m.media-amazon.com/images/I/71VrU+m9CDL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+<!-- CARD3 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/71LYpROCRPL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹60,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40,000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text"> ZENBOOK Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="ZENBOOK"   data-price="60000" data-img="https://m.media-amazon.com/images/I/71LYpROCRPL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+
+
+
+<!-- CARD4 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/712raiwnj9L._SX569_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹80,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,30000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="LENOVOE LAP"   data-price="80000" data-img="https://m.media-amazon.com/images/I/712raiwnj9L._SX569_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+</div>
+
+ <!-- SECTION777777777777 -->
+
+
+  
+ <div class="d-flex justify-content-evenly   "  >
+  <!-- CARD 1 -->
+<div class="card over overflow-hidden jin " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/71an9eiBxpL._SX679_.jpg" class="card-img-top jin" alt="...">
+ <div>
+<div class="card-body " style="padding:20px;">
+
+ <div>
+  <h5> <strong>95000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹150000</del></h5>
+
+  <div class="star">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-empty"></i>
+    <i class="fa fa-star-half-full"></i>
+    <li class="fa fa-star-half-full"></li>
+    
+   </div>
+  <p class="card-text">APPLE Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+ </div>
+
+</div>
+<button href="#" class="btn btn-warning add add-to-cart" data-name="APPLE"   data-price="95000" data-img="https://m.media-amazon.com/images/I/71an9eiBxpL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+  
+ 
+</div>
+</div>
+
+<!-- CARD2 -->
+<div class="card over overflow-hidden  jin    " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/61EIqit4e1L._SX679_.jpg" class="card-img-top jin" alt="...">
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹70,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40000</del></h5>
+
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+    <p class="card-text">AXL Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="AXL"   data-price="70000" data-img="https://m.media-amazon.com/images/I/61EIqit4e1L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+<!-- CARD3 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/71vHhrayj4L._SX569_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹90000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹140000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="HP"   data-price="90000" data-img="https://m.media-amazon.com/images/I/71vHhrayj4L._SX569_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+
+
+
+<!-- CARD4 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/71Dh450OVpL._SX569_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹80000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,50000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">ASUS Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS"   data-price="20000" data-img="https://m.media-amazon.com/images/I/71Dh450OVpL._SX569_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+</div>
+
+<!-- SECTION888888888 -->
+
+
+ 
+<div class="d-flex justify-content-evenly   "  >
+  <!-- CARD 1 -->
+<div class="card over overflow-hidden jin " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/81xnSQAMDLL._SX569_.jpg" class="card-img-top jin" alt="...">
+ <div>
+<div class="card-body " style="padding:20px;">
+
+ <div>
+  <h5> <strong>₹80,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40000</del></h5>
+
+  <div class="star">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-empty"></i>
+    <i class="fa fa-star-half-full"></i>
+    <li class="fa fa-star-half-full"></li>
+    
+   </div>
+  <p class="card-text">ZENBOOK Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+ </div>
+
+</div>
+<button href="#" class="btn btn-warning add add-to-cart" data-name="ZENBOOK"   data-price="80000" data-img="https://m.media-amazon.com/images/I/81xnSQAMDLL._SX569_.jpg"><strong>ADD TO CART</strong></button>
+
+  
+ 
+</div>
+</div>
+
+<!-- CARD2 -->
+<div class="card over overflow-hidden  jin    " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/71yejFYehdL._SX679_.jpg" class="card-img-top jin" alt="...">
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹60,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,20,000</del></h5>
+
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+    <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS VIVOBOOK"   data-price="20000" data-img="https://m.media-amazon.com/images/I/71yejFYehdL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+<!-- CARD3 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/61ADMalIXWL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹80,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,600,00</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">HP Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="HP"   data-price="80000" data-img="https://m.media-amazon.com/images/I/61ADMalIXWL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+
+
+
+<!-- CARD4 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/71rWJXZT+zL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹60,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹120000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">SAMSUNG Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="SAMSUNG"   data-price="60000" data-img="https://m.media-amazon.com/images/I/71rWJXZT+zL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+</div>
+
+<!-- SECTION999999999 -->
+
+ 
+<div class="d-flex justify-content-evenly   "  >
+  <!-- CARD 1 -->
+<div class="card over overflow-hidden jin " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/61-9M-wUoAL._SX679_.jpg" class="card-img-top jin" alt="...">
+ <div>
+<div class="card-body " style="padding:20px;">
+
+ <div>
+  <h5> <strong>₹90,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,30000</del></h5>
+
+  <div class="star">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-empty"></i>
+    <i class="fa fa-star-half-full"></i>
+    <li class="fa fa-star-half-full"></li>
+    
+   </div>
+  <p class="card-text">DELL Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+ </div>
+
+</div>
+<button href="#" class="btn btn-warning add add-to-cart" data-name="DELL"   data-price="20000" data-img="https://m.media-amazon.com/images/I/61-9M-wUoAL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+  
+ 
+</div>
+</div>
+
+<!-- CARD2 -->
+<div class="card over overflow-hidden  jin    " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/714comP-3VL._SX679_.jpg" class="card-img-top jin" alt="...">
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹2,00,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹5,00,000</del></h5>
+
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+    <p class="card-text">DELL Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="DELL"   data-price="200000" data-img="https://m.media-amazon.com/images/I/714comP-3VL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+<!-- CARD3 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/61xY8U1KM5L._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹80000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">LENOVO Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="LENOVOE"   data-price="80000" data-img="https://m.media-amazon.com/images/I/61xY8U1KM5L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+
+
+
+<!-- CARD4 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/61GEizrmU9L._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹90,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,30000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">ASUS Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS"   data-price="20000" data-img="https://m.media-amazon.com/images/I/61GEizrmU9L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+</div>
+
+
+<!-- 
+SECTION101010101010101 -->
+
+
+ 
+<div class="d-flex justify-content-evenly   "  >
+  <!-- CARD 1 -->
+<div class="card over overflow-hidden jin " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/71-Fx3Vfq5L._SX679_.jpg" class="card-img-top jin" alt="...">
+ <div>
+<div class="card-body " style="padding:20px;">
+
+ <div>
+  <h5> <strong>₹1,00,000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,500,00</del></h5>
+
+  <div class="star">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-empty"></i>
+    <i class="fa fa-star-half-full"></i>
+    <li class="fa fa-star-half-full"></li>
+    
+   </div>
+  <p class="card-text">ASUS Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+ </div>
+
+</div>
+<button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS"   data-price="100000" data-img="https://m.media-amazon.com/images/I/71-Fx3Vfq5L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+  
+ 
+</div>
+</div>
+
+<!-- CARD2 -->
+<div class="card over overflow-hidden  jin    " style="width: 18rem;">
+<img src="https://m.media-amazon.com/images/I/71czGb00k5L._SX679_.jpg" class="card-img-top jin" alt="...">
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹70000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40000</del></h5>
+
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+    <p class="card-text">ACER Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="ACER"   data-price="70000" data-img="https://m.media-amazon.com/images/I/71czGb00k5L._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+<!-- CARD3 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/51RM71nbYXL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹50000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,40000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">LENOVO Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="LENOVO"   data-price="50000" data-img="https://m.media-amazon.com/images/I/51RM71nbYXL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+
+
+
+
+<!-- CARD4 -->
+<div class="card  over overflow-hidden  jin   " style="width: 18rem;  " >
+<img src="https://m.media-amazon.com/images/I/71VrU+m9CDL._SX679_.jpg" class="card-img-top jin  " alt="..."  >
+<div class="card-body " style="padding:20px;">
+
+  <div>
+    <h5> <strong>₹80000</strong><del style="font-size: 15px; color:rgb(109, 103, 103);">M.R.P.:₹1,50000</del></h5>
+
+   <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half-empty"></i>
+     <i class="fa fa-star-half-full"></i>
+     <li class="fa fa-star-half-full"></li>
+     
+    </div>
+   <p class="card-text">ASUS  Laptop 15s,AMD Ryzen 5 5500U,15.6-inch(39.6cm),FHD,8GB DDR4,512GB</p>
+  </div>
+ 
+ </div>
+ <button href="#" class="btn btn-warning add add-to-cart" data-name="ASUS"   data-price="20000" data-img="https://m.media-amazon.com/images/I/71VrU+m9CDL._SX679_.jpg"><strong>ADD TO CART</strong></button>
+
+</div>
+</div>
+
+
+<!-- footer section start -->
+<footer id="footer" style="margin-top: 50px; border-top: 8px solid rgb(139, 7, 111);" >
+  <div class="sell">
+    <div class="row">
+      <div class="col-md-3">
+        <a href="index.html"><img src="https://www.freepnglogos.com/uploads/company-logo-png/file-quechua-company-logo-wikimedia-commons-18.png" alt=""  width="200px" height=""   class=" logo-footer"></a>
+                  <div class="footer-about">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </p>
+                  </div>
+
+      </div>
+      <div class="col-md-3">
+        <div class="useful-link">
+          <h2>Useful Links</h2>
+          <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+          <div class="use-links">
+            <li><a href="index.html"><i class="fa-solid fa-angles-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+            <li><a href="gallery.html"><i class="fa-solid fa-angles-right"></i> Gallery</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angles-right"></i> Contact</a></li>
+          </div>
+        </div>
+
+      </div>
+                <div class="col-md-3">
+                    <div class="social-links">
+          <h2>Follow Us</h2>
+          <img src="./assets/images/about/home_line.png" alt="">
+          <div class="social-icons">
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
+          </div>
+        </div>
+                
+
+                </div>
+      <div class="col-md-3">
+        <div class="address">
+          <h2>Address</h2>
+          <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+          <div class="address-links">
+            <li class="address1"><i class="fa-solid fa-location-dot"></i> Kolathur ramankulam-
+              Malappuram Dt 
+               Kerala 679338</li>
+               <li><a href=""><i class="fa-solid fa-phone"></i> +91 90904500112</a></li>
+               <li><a href=""><i class="fa-solid fa-envelope"></i> mail@1234567.com</a></li>
+          </div>
+        </div>
+      </div>
+              
+    </div>
+  </div>
+
+</footer>
+<!-- footer section end -->
+<!-- footer copy right section start -->
+<section id="copy-right">
+  <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+    lorem ispum lorem ispum 2022 Powerd By <a href="#">lorem ispum</a> 
+
+
+  </div>
+
+</section>
+<!-- footer copy right section end -->
+
+<!-- 
+<h2 style="margin-top: 50px; text-align: center;">EXPLOURE NEW LAUNCHES </h2>
+
+
+<marquee behavior="" direction="right"> <div class="marqmain">
+  <div  class="marq1"></div>
+  <div class="marq1" ></div> 
+</div></marquee> -->
+
+
+
+
+<!-- SRiptttt -->
+
+
+
+
+
+  
+</body>
+</html>
